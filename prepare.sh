@@ -12,7 +12,7 @@ if [ "$(uname -s)" = "Darwin" ]; then
   fi
   ## Check if using MacPorts
   if command -v port &> /dev/null; then
-    sudo port install autoconf automake cmake doxygen gsed libelf libtool pkgconfig
+    sudo port install autoconf automake cmake doxygen gsed libelf libtool pkgconfig gpgme
   fi
 else
 
